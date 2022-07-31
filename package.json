@@ -1,7 +1,6 @@
 {
   "name": "01",
   "version": "0.1.0",
-  "repository": "git@github.com:NSobol/atlantida.git",
   "author": "Varna",
   "license": "MIT",
   "private": true,
