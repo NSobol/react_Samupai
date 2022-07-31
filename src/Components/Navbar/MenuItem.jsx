@@ -5,7 +5,7 @@ function MenuItem(props) {
   return (
     <>
       <li className="menu-list-item">
-        <a src={item.href}>{item.name}</a>
+        <a href={item.href}>{item.name}</a>
       </li>
     </>
   );
