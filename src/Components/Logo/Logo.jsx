@@ -1,11 +1,11 @@
 import React from "react";
 import LogoImage from "./LogoImage";
 import LogoText from "./LogoText";
-import "./Logo.module.css";
+import styles from "./Logo.module.css";
 
 function Logo() {
   return (
-    <div className="app-logo">
+	  <div className={ styles.logo }>
       <LogoImage />
       <LogoText />
     </div>

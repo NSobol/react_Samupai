@@ -1,15 +1,11 @@
 import React from "react";
-import "./Logo.module.css";
-import "./../../images/logo.png";
+import logo from "./../../images/logo.png";
+import styles from "./Logo.module.css";
 
 function LogoImage() {
   return (
     <>
-      <img
-        src="./../../images/logo.png"
-        alt="Логотип"
-        className="app-logo-image"
-      />
+		  <img src={logo} alt="Логотип" className={ styles.logo } />
     </>
   );
 }
